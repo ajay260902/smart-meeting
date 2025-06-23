@@ -14,7 +14,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:5173", "https://verdant-alpaca-df40b0.netlify.app/","https://verdant-alpaca-df40b0.netlify.app") // Replace with frontend domains
+                        .allowedOrigins("http://localhost:5173", "https://verdant-alpaca-df40b0.netlify.app/","https://smart-calendar-l8as.onrender.com") // Replace with frontend domains
                         .allowedMethods("*")
                         .allowedHeaders("*")
                         .allowCredentials(true);
