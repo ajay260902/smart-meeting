@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a60c9ffd-dba7-4413-8bd0-d7eae797c1fe" name="Changes" comment="first commint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/meeting/controller/CalendarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/meeting/controller/CalendarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/meeting/controller/HealthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/meeting/controller/HealthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/meeting/controller/OAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/meeting/controller/OAuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/project/meeting/utils/AppConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/meeting/utils/AppConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/meeting/controller/OAuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/meeting/controller/OAuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/meeting/utils/AppConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/meeting/utils/AppConstant.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
