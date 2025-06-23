@@ -1,24 +1,14 @@
-# Start from an OpenJDK image
+# Use a base image with Java 17
 FROM eclipse-temurin:17-jdk-alpine
 
-# Set working directory
+# Set the working directory
 WORKDIR /app
 
-# Copy Maven wrapper and pom.xml
-COPY .mvn .mvn
-COPY mvnw pom.xml ./
-
-# Download dependencies
-RUN ./mvnw dependency:go-offline
-
-# Copy the entire project
-COPY . .
-
-# Build the project
-RUN ./mvnw clean package -DskipTests
+# Copy the built JAR file into the container
+COPY target/*.jar app.jar
 
 # Expose port 8080
 EXPOSE 8080
 
-# Run the application
-CMD ["java", "-jar", "target/smart-meeting-scheduler-0.0.1-SNAPSHOT.jar"]
+# Run the Spring Boot app
+ENTRYPOINT ["java", "-jar", "app.jar"]
