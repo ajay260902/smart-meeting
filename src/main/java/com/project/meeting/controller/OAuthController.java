@@ -119,9 +119,7 @@ public class OAuthController {
 
 
             String frontendRedirectUrl = AppConstant.FRONTEND_URL +
-                    "?access_token=" + tokenResponse.getAccess_token() +
-                    "&refresh_token=" + tokenResponse.getRefresh_token() +
-                    "&email=" + userInfoResponse.getBody().getEmail();
+                    "?email=" + userInfoResponse.getBody().getEmail();
 
             return ResponseEntity.status(HttpStatus.FOUND)
                     .header(HttpHeaders.LOCATION, frontendRedirectUrl)
