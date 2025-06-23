@@ -11,7 +11,7 @@ import java.io.IOException;
 
 
 @RestController
-@CrossOrigin("*")
+@CrossOrigin
 @RequestMapping("/calendar/events")
 public class CalendarController {
 
